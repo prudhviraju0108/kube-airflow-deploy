@@ -12,7 +12,7 @@ workers:
 
 postgresql:
   image:
-    repository: docker.io/bitnami/postgresql
+    repository: bitnami/postgresql
     tag: 15
 
 dags:
