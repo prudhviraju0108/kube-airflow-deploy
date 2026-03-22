@@ -1,0 +1,15 @@
+executor: CeleryExecutor
+
+webserver:
+  service:
+    type: ClusterIP
+
+scheduler:
+  replicas: 1
+
+workers:
+  replicas: 1
+
+dags:
+  persistence:
+    enabled: false
