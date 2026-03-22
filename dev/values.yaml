@@ -10,6 +10,11 @@ scheduler:
 workers:
   replicas: 1
 
+postgresql:
+  image:
+    repository: docker.io/bitnami/postgresql
+    tag: 15
+
 dags:
   persistence:
     enabled: false
