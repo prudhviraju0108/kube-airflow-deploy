@@ -12,7 +12,7 @@ workers:
 
 postgresql:
   image:
-    repository: bitnami/postgresql
+    repository: bitnamilegacy/postgresql
     tag: 15
 
 dags:
